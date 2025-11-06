@@ -1,7 +1,7 @@
 from pydantic_settings import BaseSettings
 
 class Config(BaseSettings):
-    DATASET_PATH: str = "data/dataset.csv"
+    DATASET_DIR: str = "dataset/"
     AZURE_API_KEY: str = ""
 
 

@@ -9,4 +9,4 @@ wheels/
 # Virtual environments
 .venv
 .env.local
-*/*.mp3
+**/*.mp3
